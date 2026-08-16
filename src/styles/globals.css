@@ -1,0 +1,17 @@
+/**
+ * Arquivo de configuração de styles globais
+ * Este arquivo pode importar Tailwind CSS ou outro framework de estilos
+ */
+
+/* 
+  Customize aqui suas cores, tipografia e temas:
+  
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+  @layer components {
+    .btn-primary { }
+    .card { }
+  }
+*/
