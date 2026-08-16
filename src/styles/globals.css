@@ -1,17 +1,22 @@
-/**
- * Arquivo de configuração de styles globais
- * Este arquivo pode importar Tailwind CSS ou outro framework de estilos
- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* 
-  Customize aqui suas cores, tipografia e temas:
-  
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-  
-  @layer components {
-    .btn-primary { }
-    .card { }
-  }
-*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f8fafc;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input {
+  font: inherit;
+}
